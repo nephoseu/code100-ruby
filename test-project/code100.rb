@@ -1,11 +1,8 @@
 require 'net/http'
 require 'json'
 
-email = 'ws1-round2a@code100.dev'
-password = 'Q56T-987J-L38T'
-
-# uri = URI('https://google.com')
-# Net::HTTP.get(uri)
+email = "EMAIL-OR-USERNAME-HERE"  # replace with email or username given to you
+password = 'PASSWORD-HERE' # replace with password given to you
 
 # Step 1: Login
 uri = URI('https://challenger.code100.dev/login')
